@@ -1,11 +1,11 @@
 # Project2_2020_Metis
 
-## To do...
-### MVP 1
-- Webscrape [BGG](https://boardgamegeek.com/boardgame/167791/terraforming-mars)
-- Presentation (ppt)
+## MVP 1
+
+### Webscrape
+Webscrape [BGG](https://boardgamegeek.com/boardgame/167791/terraforming-mars)
+- Clean and Analyze using Pandas
 - Linear Regression
-- This Repo & Read me of process
 
 Attributes
 1. Avg. Rating (out of 10)
@@ -24,10 +24,22 @@ Attributes
 
 *Note:* **Y**, *the expected output, is Yn/Yd*
 
-### MVP 2
+### Presentation
+
+1. Intro
+2. Method and Tools
+3. Results
+4. Conclusion (& Recommendation & Future Works)
+
+### This Repo & Read me w/ process
+
+
+## MVP 2
 - Polynomial Regression
 - Webscrape Amazon (for 12. Product information > Item *Weight*)
 
+
 ## Other Resources
 [Link](https://github.com/thisismetis/chi20_ds15/blob/master/curriculum/project-02/project-02-introduction/project_02.md) to the Specs for Project 2.
-[Link]() to the Grading Rubric.
+
+[Link](https://docs.google.com/document/d/1oAJrWNR7HxNJVI2IHUuHArEvBccowLqvPObYbqtH0rs/edit) to the Grading Rubric.
