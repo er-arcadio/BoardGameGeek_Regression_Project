@@ -21,7 +21,9 @@ Attributes
 11. **Yd - Own (# of people that own game)**
 
 *Note: 6 and 7 are categorical -- 6 is Ordinal; 7 is Nominal*
+
 *Note:* **Y**, *the expected output, is Yn/Yd*
+
 ### MVP 2
 - Polynomial Regression
 - Webscrape Amazon (for 12. Product information > Item *Weight*)
