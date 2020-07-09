@@ -1,5 +1,8 @@
 # Project2_2020_Metis
 
+### The Goal...
+**"How many plays is this board game going to get?"** The goal of the project is to predict the average plays per person. Currently, on BoardGameGeek.com (BGG), this can be calculated by dividing total plays of a game by total owners of the game. All the attributes listed below (1-11) can be found on the website.
+
 ## MVP 1
 
 ### Webscrape
@@ -9,14 +12,16 @@ Webscrape [BGG](https://boardgamegeek.com/boardgame/167791/terraforming-mars)
 
 Attributes
 1. Avg. Rating (out of 10)
-2. No. of Ratings (people who've rated it)
+2.     No. of Ratings (people who've rated it)
 3. Weight (Difficulty)
 4. Overall Rank
 5. Playing Time (low end)
 6. *Age*
 7. *Number of players*
-8. Prev. Owned (# of people who previously owened this)
-9. Comments (# of...)
+8.     Prev. Owned (# of people who previously owened this)
+9.     Comments (# of...)
+10. Cost of Game
+11.     Number of expansions
 10. **Yn - All Time Plays**
 11. **Yd - Own (# of people that own game)**
 
@@ -36,7 +41,8 @@ Attributes
 
 ## MVP 2
 - Polynomial Regression
-- Webscrape Amazon (for 12. Product information > Item *Weight*)
+- Webscrape Amazon
+    For 12. Product information > Item *Weight* and 13. Product Cost)
 
 
 ## Other Resources
