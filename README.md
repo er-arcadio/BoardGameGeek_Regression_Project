@@ -12,16 +12,16 @@ Webscrape [BGG](https://boardgamegeek.com/boardgame/167791/terraforming-mars)
 
 Attributes
 1. Avg. Rating (out of 10)
-2.     No. of Ratings (people who've rated it)
+2. ^No. of Ratings (people who've rated it)
 3. Weight (Difficulty)
 4. Overall Rank
 5. Playing Time (low end)
 6. *Age*
 7. *Number of players*
-8.     Prev. Owned (# of people who previously owened this)
-9.     Comments (# of...)
+8. ^Prev. Owned (# of people who previously owened this)
+9. ^Comments (# of...)
 10. Cost of Game
-11.     Number of expansions
+11. ^Number of expansions
 10. **Yn - All Time Plays**
 11. **Yd - Own (# of people that own game)**
 
@@ -42,7 +42,10 @@ Attributes
 ## MVP 2
 - Polynomial Regression
 - Webscrape Amazon
-    For 12. Product information > Item *Weight* and 13. Product Cost)
+
+For 12. Product information > Item *Weight*
+
+and 13. Product Cost)
 
 
 ## Other Resources
