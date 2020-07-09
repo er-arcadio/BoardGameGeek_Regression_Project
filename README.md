@@ -28,3 +28,6 @@ Attributes
 - Polynomial Regression
 - Webscrape Amazon (for 12. Product information > Item *Weight*)
 
+## Other Resources
+[Link](https://github.com/thisismetis/chi20_ds15/blob/master/curriculum/project-02/project-02-introduction/project_02.md) to the Specs for Project 2.
+[Link]() to the Grading Rubric.
