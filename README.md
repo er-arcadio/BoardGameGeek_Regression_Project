@@ -13,12 +13,14 @@ Attributes
 3. Weight (Difficulty)
 4. Overall Rank
 5. Playing Time (low end)
-6. Age
-7. # of players
+*6. Age*
+*7. Number of players*
 8. Prev. Owned (# of people who previously owened this)
 9. Comments (# of...)
 **10. Yn - All Time Plays**
 **11. Yd - Own (# of people that own game)**
+
+*Note: 6 and 7 are categorical -- 6 is Ordinal; 7 is Nominal
 
 ### MVP 2
 - Polynomial Regression
