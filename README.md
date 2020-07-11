@@ -7,8 +7,9 @@
 
 ### Webscrape
 Webscrape [BGG](https://boardgamegeek.com/boardgame/167791/terraforming-mars)
-- Clean and Analyze using Pandas
+- Clean and EDA using Pandas (Pair plot)
 - Linear Regression
+- Validation
 
 Attributes
 1. Avg. Rating (out of 10)
@@ -38,9 +39,14 @@ Attributes
 
 ### This Repo & Read me w/ process
 
+<br>
 
 ## MVP 2
-- Polynomial Regression
+- Play with Polynomial Regression to increase/decrease complexity where needed
+- Try cross Validation
+- Fine tune with Regularization if needed (Ridge, Lasso)
+
+## MVP 3
 - Webscrape Amazon
 
 For 12. Product information > Item *Weight*
