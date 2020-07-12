@@ -6,7 +6,8 @@
 ## MVP 1
 
 ### Webscrape
-- Webscrape [BGG](https://boardgamegeek.com/boardgame/167791/terraforming-mars)
+- Webscrape [BGG](https://boardgamegeek.com/boardgame/167791/terraforming-mars) : [Click here](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/Scraping_BGG.ipynb) for the notebook
+- Clean the code enough to itterate multiple game links
 - Use Selenium to get more than 100 rows
 - Clean and EDA using Pandas (Pair plot)
 - Linear Regression
