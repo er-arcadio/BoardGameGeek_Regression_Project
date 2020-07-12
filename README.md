@@ -6,23 +6,21 @@
 ## MVP 1
 
 ### Webscrape
-Webscrape [BGG](https://boardgamegeek.com/boardgame/167791/terraforming-mars)
+- Webscrape [BGG](https://boardgamegeek.com/boardgame/167791/terraforming-mars)
+- Use Selenium to get more than 100 rows
 - Clean and EDA using Pandas (Pair plot)
 - Linear Regression
 - Validation
 
 Attributes
 1. Avg. Rating (out of 10)
-2. ^No. of Ratings (people who've rated it)
+2. No. of Ratings (people who've rated it)
 3. Weight (Difficulty)
 4. Overall Rank
 5. Playing Time (low end)
 6. *Age*
 7. *Number of players*
-8. ^Prev. Owned (# of people who previously owened this)
-9. ^Comments (# of...)
 10. Cost of Game
-11. ^Number of expansions
 10. **Yn - All Time Plays**
 11. **Yd - Own (# of people that own game)**
 
@@ -53,6 +51,10 @@ For 12. Product information > Item *Weight*
 
 and 13. Product Cost)
 
+## Future
+- Include: Prev. Owned (# of people who previously owened game)
+- Include: # of comments on a game
+- Number of expansions
 
 ## Other Resources
 [Link](https://github.com/thisismetis/chi20_ds15/blob/master/curriculum/project-02/project-02-introduction/project_02.md) to the Specs for Project 2.
