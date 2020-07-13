@@ -6,33 +6,23 @@
 ## MVP 1
 
 ### Webscrape
-- Webscrape [BGG](https://boardgamegeek.com/boardgame/167791/terraforming-mars) : [Click here](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/Scraping_BGG.ipynb) for the notebook
-- Clean the code enough to itterate multiple game links
-- Use Selenium to get more than 100 rows
-- Clean and EDA using Pandas (Pair plot)
-- Linear Regression
+- *Webscrape [BGG](https://boardgamegeek.com/boardgame/167791/terraforming-mars) : [Click here](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/Scraping_BGG.ipynb) for the notebook*
+- Itterate over multiple browser pages (10 pages : 1 thousand games)
+- Clean data, fix categorical, and do EDA using Pandas (Pair plot)
+- Linear Regression Analysis
 - Validation
 
-Attributes
-1. Avg. Rating (out of 10)
-2. No. of Ratings (people who've rated it)
-3. Weight (Difficulty)
-4. Overall Rank
-5. Playing Time (low end)
-6. *Age*
-7. *Number of players*
-10. Cost of Game
-10. **Yn - All Time Plays**
-11. **Yd - Own (# of people that own game)**
+*Note: Attributes "Min_Age" and "*_Players" are categorical -- first being Ordinal; and latter being Nominal (Dummy Values)*
 
-*Note: 6 and 7 are categorical -- 6 is Ordinal; 7 is Nominal*
-
-*Note:* **Y**, *the expected output, is Yn/Yd*
+*Note:* **Y**, *Avg_Plays, the expected output, is Total_Plays/Owners*
 
 ### Presentation
 
 1. Intro
 2. Method and Tools
+  - Scraped BGG for name and links then used link to scrape more info
+  - formatted string to iterate over multiple pages
+  - .py file with scrape methods (requests, BeautifulSoup, json)
 3. Results
 4. Conclusion (& Recommendation & Future Works)
 
