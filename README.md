@@ -1,20 +1,19 @@
 # Project2_2020_Metis
 
 ### The Goal...
-**"How many plays is this board game going to get?"** The goal of the project is to predict the average plays per person. Currently, on BoardGameGeek.com (BGG), this can be calculated by dividing total plays of a game by total owners of the game. All the attributes listed below (1-11) can be found on the website.
+**"How many plays is this board game going to get?"** The goal of the project is to predict the average plays per person. Currently, on BoardGameGeek.com (BGG), this can be calculated by dividing total plays of a game by total owners of the game.
 
 ## MVP 1
 
-### Webscrape
+### Webscrape & Baseline Model
 - *Webscrape [BGG](https://boardgamegeek.com/boardgame/167791/terraforming-mars) : [Click here](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/Scraping_BGG.ipynb) for the notebook*
-- Itterate over multiple browser pages (10 pages : 1 thousand games)
-- Clean data, fix categorical, and do EDA using Pandas (Pair plot)
-- Linear Regression Analysis
-- Validation
+- *Itterate over multiple browser pages (10 pages : 1 thousand games)*
+- *Clean data and fix categorical* 
+- EDA using Pandas (Pair plot, correlations)
+- Linear Regression Analysis ()
+- Validation (train and val)
 
-*Note: Attributes "Min_Age" and "*_Players" are categorical -- first being Ordinal; and latter being Nominal (Dummy Values)*
-
-*Note:* **Y**, *Avg_Plays, the expected output, is Total_Plays/Owners*
+*Note: The target is Avg_Plays*
 
 ### Presentation
 
