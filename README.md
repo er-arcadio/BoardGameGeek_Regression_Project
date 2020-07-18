@@ -1,6 +1,6 @@
 # Web Scraping and Linear Regression
 
-### The Goal...
+### Project Thesis
 **"How many plays is this board game going to get?"** The goal of the project is to predict the average plays per person. Currently, on BoardGameGeek.com (BGG), this can be calculated by dividing total plays of a game by total owners of the game.
 
 ## MVP 1 - Webscrape & Baseline Model
@@ -24,7 +24,7 @@
 
 ## Results 
 
-**Best Model:** eliminate outliers (3%), log features, square root features, polynomial: degree 3, and Lasso: lambda .0075
+**Best Model:** eliminate outliers (3%), log features, square root features, polynomial: degree 3, and Lasso: lambda 0.0075
 
 **Key Features:** Diificulty, Time, Rank, 6 players
 
