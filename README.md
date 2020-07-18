@@ -44,12 +44,15 @@
 
 ## Future Works
 
-Include the following attributes 
-- Number of expansions (harder to scrape)
-- Theme (harder to scrape)
+Include the following attributes (harder to scrape)
+- Number of expansions 
+- Theme
 - Price (from Amazon)
 - Weight (from Amazon)
+
+Also...
 - More rows of data (in retrospect)
+- Have fun with [LARS Path](https://github.com/thisismetis/chi20_ds15/blob/master/curriculum/project-02/regularization/regularization_code.ipynb)
 
 ## Other Resources
 [Link](https://github.com/thisismetis/chi20_ds15/blob/master/curriculum/project-02/project-02-introduction/project_02.md) to the Specs for Project 2.
