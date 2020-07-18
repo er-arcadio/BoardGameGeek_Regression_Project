@@ -14,15 +14,15 @@
 
 **Jupyter Notebooks**
 
-[Web Scraping BGG.com]((https://github.com/er-arcadio/Project2_2020_Metis/blob/master/Scraping_BGG.ipynb)
+[Web Scraping BGG.com Notebook](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/Scraping_BGG.ipynb)
 
-[Linear Regression Model Selection](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/BGG_Model.ipynb)
+[Linear Regression Model Selection Notebook](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/BGG_Model.ipynb)
 
 **Python Files**
 
-[Web Scraping BGG.com](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/BGG.py)
+[Web Scraping BGG.com .py](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/BGG.py)
 
-[Linear Regression Model Selection](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/model_selection.py)
+[Linear Regression Model Selection .py](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/model_selection.py)
 
 *Note: The target is Avg_Plays*
 <br>
