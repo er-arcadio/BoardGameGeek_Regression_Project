@@ -5,12 +5,20 @@
 
 ## MVP 1 - Webscrape & Baseline Model
 
-- *Webscrape [BGG](https://boardgamegeek.com/boardgame/167791/terraforming-mars) : [Click here](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/Scraping_BGG.ipynb) for the notebook*
-- *Itterate over multiple browser pages (10 pages : 1 thousand games)*
-- *Clean data and fix categorical* 
+- Webscrape BGG
+- Itterate over multiple browser pages (10 pages : 1 thousand games)
+- Clean data and fix categorical
 - EDA using Pandas (Pair plot and correlations)
-- Linear Regression Analysis
-- Cross Validation 
+- Linear Regression Analysis and Assumptions
+- Kfold Cross Validation - 10 folds
+
+**Jupyter Notebooks**
+[Web Scraping BGG.com]((https://github.com/er-arcadio/Project2_2020_Metis/blob/master/Scraping_BGG.ipynb)
+[Linear Regression Model Selection]()
+
+**Python Files**
+[Web Scraping BGG.com](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/BGG.py)
+[Linear Regression Model Selection]()
 
 *Note: The target is Avg_Plays*
 <br>
