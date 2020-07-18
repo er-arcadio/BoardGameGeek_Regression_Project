@@ -24,8 +24,11 @@
 
 ## Results 
 
-Best Model: eliminate outliers (3%), log features, square root features, polynomial: degree 3, and Lasso: lambda .0075
-Ke Features: Diificulty, Time, Rank, 6 players
+**Best Model:** eliminate outliers (3%), log features, square root features, polynomial: degree 3, and Lasso: lambda .0075
+
+**Key Features:** Diificulty, Time, Rank, 6 players
+
+**r^2:** originally: 0.196 --- finally: **0.30**
 
 ## Future Works
 
