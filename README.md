@@ -18,12 +18,6 @@
 
 [Linear Regression Model Selection Notebook](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/BGG_Model.ipynb)
 
-**Python Files**
-
-[Web Scraping BGG.com .py](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/BGG.py)
-
-[Linear Regression Model Selection .py](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/model_selection.py)
-
 *Note: The target is Avg_Plays*
 <br>
 
@@ -33,6 +27,12 @@
 - Fine tune with Regularization if needed (Ridge, Lasso)
 - Write .py files for Web Scraping BGG (requests, BeautifulSoup, regex, json)
 - ...and for Cross Validate and to display Linear Assumptions (more general)
+
+**Python Files**
+
+[Web Scraping BGG.com .py](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/BGG.py)
+
+[Linear Regression Model Selection .py](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/model_selection.py)
 
 ## Results 
 
