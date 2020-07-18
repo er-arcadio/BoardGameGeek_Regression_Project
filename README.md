@@ -16,24 +16,18 @@
 <br>
 
 ## MVP 2 - Model Tuning and Python Files
+- Model Tuning - Feature Engineering, Outliers, Multicolinearity
 - Play with Polynomial, Log, and Sqrt Features to increase complexity where needed
 - Fine tune with Regularization if needed (Ridge, Lasso)
-- Write .py files for Scraping and Cross Validation.
+- Write .py files for Web Scraping BGG (requests, BeautifulSoup, regex, json)
+- ...and for Cross Validate and to display Linear Assumptions (more general)
 
-### Presentation/ Results
+## Results 
 
-1. Intro
-2. Method and Tools
-  - Scraped BGG for name and links then used link to scrape more info
-  - .py file with functions used to scrape (requests, BeautifulSoup, regex, json)
-  - Model Tuning: Feature Engineering, Outliers, Multicolinearity
-  - .py file with functions used to cross validate and display linear assumptions
-3. Results
-  - Log features, square root features, polynomial degree 3, and Lasso lambda .0075
-4. Conclusion (& Recommendation & Future Works)
-  - Key features: Diificulty, Time, Rank, 6 players
+Best Model: eliminate outliers (3%), log features, square root features, polynomial: degree 3, and Lasso: lambda .0075
+Ke Features: Diificulty, Time, Rank, 6 players
 
-## Future - More info!
+## Future Works
 
 Include the following attributes 
 - Number of expansions (harder to scrape)
