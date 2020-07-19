@@ -1,42 +1,44 @@
 # Web Scraping and Linear Regression
 
-### Project Thesis
-**"How many plays is this board game going to get?"** The goal of the project is to predict the average plays per person. Currently, on BoardGameGeek.com (BGG), this can be calculated by dividing total plays of a game by total owners of the game.
+### Project 2 at Metis
+**Objective: "How many plays will this board game get?"**
 
-## MVP 1 - Webscrape & Baseline Model
+The goal of the project is to find a correlation between the average plays per person on a boardgame and other board game features that can be found on BoardGameGeek.com (BGG). For the project, this will be calculated by dividing the total number of plays a game has by the total number of owners of the game.
 
-- Webscrape BGG
-- Itterate over multiple browser pages (10 pages : 1 thousand games)
-- Clean data and fix categorical
-- EDA using Pandas (Pair plot and correlations)
-- Linear Regression Analysis and Assumptions
+## Webscrape & A Baseline Model
+
+- Webscrape BGG using requests, BeautifulSoup, regex, and json
+- Itterate over multiple browsing pages (10 pages: 100 games per = 1,000 games)
+- Clean data (manage null values and outliers) and fix categorical data
+- EDA using pandas, matplotlib, and seaborn (Pair plot and correlation plot)
+- Linear Regression Analysis and Assumptionsusing sklearn and statsmodel
 - Kfold Cross Validation - 10 folds
 
 **Jupyter Notebooks**
 
-[Web Scraping BGG.com Notebook](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/BGG_Scrape_Clean.ipynb)
+["Web Scraping and Cleaning BGG.com" Notebook](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/BGG_Scrape_Clean.ipynb)
 
-[Linear Regression Model Selection Notebook](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/BGG_Model.ipynb)
+["EDA and Model Selection" Notebook](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/BGG_Model.ipynb)
 
-*Note: The target is Avg_Plays*
+*Note: The target is "Avg_Plays"*
 <br>
 
-## MVP 2 - Model Tuning and Python Files
-- Model Tuning - Feature Engineering, Outliers, Multicolinearity
-- Play with Polynomial, Log, and Sqrt Features to increase complexity where needed
-- Fine tune with Regularization if needed (Ridge, Lasso)
-- Write .py files for Web Scraping BGG (requests, BeautifulSoup, regex, json)
-- ...and for Cross Validate and to display Linear Assumptions (more general)
+## Model Selection and Python Files
+- Feature Engineering -  play with Polynomial, Log, and Sqrt features to increase complexity where needed
+- Outliers - remove outliers that mess up the Linear Assumptions
+- Multicolinearity - Fine tune model using Regularization if needed (Ridge, Lasso)
+- Write and organaize code in python files for Web Scraping BGG  and model selection.
 
 **Python Files**
 
 [Web Scraping BGG.com .py](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/BGG.py)
 
 [Linear Regression Model Selection .py](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/model_selection.py)
+<br>
 
 ## Results 
 
-**Best Model:** eliminate outliers (3%), log features, square root features, polynomial: degree 3, and Lasso: lambda 0.0075
+**Best Model:** eliminate outliers (3% of data), add log and square root features, and use polynomial features: degree 3, and lasso regularization: lambda 0.0075
 
 **Key Features:** Diificulty, Time, Rank, 6 players
 
@@ -45,7 +47,7 @@
 ## Future Works
 
 Include the following attributes (harder to scrape)
-- Number of expansions 
+- Number of expansions / reprints
 - Theme
 - Price (from Amazon)
 - Weight (from Amazon)
