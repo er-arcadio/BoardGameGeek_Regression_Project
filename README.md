@@ -14,7 +14,7 @@
 
 **Jupyter Notebooks**
 
-[Web Scraping BGG.com Notebook](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/Scraping_BGG.ipynb)
+[Web Scraping BGG.com Notebook](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/BGG_Scrape_Clean.ipynb)
 
 [Linear Regression Model Selection Notebook](https://github.com/er-arcadio/Project2_2020_Metis/blob/master/BGG_Model.ipynb)
 
