@@ -1,6 +1,6 @@
 # Web Scraping and Linear Regression
 
-### Project 2 at Metis
+### Project 2 at Metis - ["This Repo"](https://github.com/er-arcadio/Project2_2020_Metis)
 **Objective: "How many plays will this board game get?"**
 
 The goal of the project is to find a correlation between the average plays per person on a boardgame and other board game features that can be found on BoardGameGeek.com (BGG). For the project, this will be calculated by dividing the total number of plays a game has by the total number of owners of the game.
